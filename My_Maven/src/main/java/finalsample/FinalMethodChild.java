@@ -7,7 +7,7 @@ public class FinalMethodChild extends FinalMethodParent {
 
 	}
 
-	public void show() //error
+	//public void show() //error
 	{
 		System.out.println("Child Method");
 	}

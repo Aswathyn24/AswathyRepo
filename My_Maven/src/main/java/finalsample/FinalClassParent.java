@@ -1,12 +1,14 @@
 package finalsample;
 
-public class FinalClassParent {
+final class FinalClassParent /*class FinalClassParent is declared as final.*/
+{  
 
-	public final void show()
+	public void show() /*Parent Class Method*/
 	{
 	
-	System.out.println("Parent Class");
+	System.out.println("Parent Class"); /*Printing statement for Parent Class*/
 	
 		
 	}
 }
+

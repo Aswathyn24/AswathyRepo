@@ -2,7 +2,7 @@ package abstractsample;
 
 public abstract class AbstractClass1 
 {
-	public abstract void abstractname();//semicolan is expected while creating an abstract method
+	public abstract void abstractName();//semicolan is expected while creating an abstract method
 	
 
 }
