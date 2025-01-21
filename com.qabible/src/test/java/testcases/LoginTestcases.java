@@ -23,7 +23,7 @@ public class LoginTestcases extends BaseClass {
 		String actual = dp.getTextOfWelcomeText();
 		String expected = "Welcome to Payroll Application";
 		Assert.assertEquals(actual, expected, ConstantClass.errorMessageForLoginTestCases);
-
+        System.out.println("");
 	}
 	
 	@Test(groups = "Critical", retryAnalyzer =retrypackage.RetryAnalyzerUtility.class )
