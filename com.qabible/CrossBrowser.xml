@@ -1,0 +1,34 @@
+<suite name="My Test Suite" parallel="tests" thread-count="2">
+<test name="ChromeTest">
+	<groups>
+		<run>
+			<include name="Critical" />
+		</run>
+	</groups>
+	<parameter name="browser" value="Chrome"></parameter>
+	<classes>
+		<class name="testcases.LoginTestcases"/>
+		<class name="testcases.WorkersTabTestcases"/>
+		<class name="testcases.ClientTabTestcases"/>
+	</classes>
+</test>
+
+<test name="EdgeTest">
+	<groups>
+		<run>
+			<include name="Low" />
+
+		</run>
+
+	</groups>
+	<parameter name="browser" value="Edge"></parameter>
+	<classes>
+		<class name="testcases.LoginTestcases"/>
+		<class name="testcases.WorkersTabTestcases"/>
+		<class name="testcases.ClientTabTestcases"/>
+		
+	</classes>
+
+</test>
+
+</suite>

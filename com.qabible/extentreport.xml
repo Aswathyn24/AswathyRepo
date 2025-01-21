@@ -1,0 +1,12 @@
+<suite name="Test Suite">
+	<listeners>
+		<listener class-name="utilities.ExtentReportUtility" />
+	</listeners>
+	<test name="Test">
+		<classes>
+			<class name="testcases.LoginTestcases" />
+			<class name="testcases.ResetItTestcase">
+			</class>
+		</classes>
+	</test>
+</suite>
